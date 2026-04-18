@@ -1,0 +1,23 @@
+# Virtual environments
+asl_venv/*
+!asl_venv/*.py
+!asl_venv/*.txt
+ml_vision_env/
+
+# Massive Data/Model files
+*.csv
+*.pkl
+*.h5
+*.keras
+*.tflite
+*.pb
+
+# Logs & Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE
+.vscode/
+.idea/
